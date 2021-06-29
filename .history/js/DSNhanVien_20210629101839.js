@@ -1,0 +1,3 @@
+function danhSachNhanVien() {
+  this.danhSachNhanVien = [];
+}

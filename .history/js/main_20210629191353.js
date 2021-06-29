@@ -1,0 +1,2 @@
+var nhanVienMoi = new NhanVien('1', "Thao", 'abc@gmail.com', 'truongthikhanhngan', 'ngayLamViec', 'chucVu);
+var nhanVienMoi = new NhanVien('1', "Thao", 'abc@gmail.com', 'truongthikhanhngan', 'ngayLamViec', 'chucVu);
