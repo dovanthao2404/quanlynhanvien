@@ -3,7 +3,7 @@ function getEle(ele) {
 }
 
 let congTy = new CongTy();
-let nhanVienMoi = new NhanVien('1', "Do Van Thao", 'abc@gmail.com', 'truongthikhanhngan', 'ngayLamViec', 'Nhan Vien');
+let nhanVienMoi = new NhanVien('1', "Do Van Thao", 'abc@gmail.com', 'truongthikhanhngan', 'ngayLamViec', 'Sep');
 congTy.ThemNhanVien(nhanVienMoi);
 nhanVienMoi = new NhanVien('2', "Truong Thi Khanh Ngan", 'abc@gmail.com', 'truongthikhanhngan', 'ngayLamViec', 'Truong Phong');
 congTy.ThemNhanVien(nhanVienMoi);
