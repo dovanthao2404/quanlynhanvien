@@ -93,7 +93,7 @@ SuaNhanVien = (dsnv) => {
 
 // Xóa nhân viên
 
-XoaNhanVien = (dsnv) => {
+XoaNhanVien(dsnv) {
   let soNV = dsnv.length;
   for (let i = 0; i < soNV; i++) {
     getEle(`xoa-${dsnv[i].maNV}`).onclick = function () {

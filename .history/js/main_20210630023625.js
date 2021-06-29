@@ -103,5 +103,5 @@ XoaNhanVien = (dsnv) => {
   HienThiDanhSach(congTy.DanhSachNhanVien);
 }
 
-XoaNhanVien(congTy.DanhSachNhanVien);
-SuaNhanVien(congTy.DanhSachNhanVien);
+// XoaNhanVien(congTy.DanhSachNhanVien);
+// SuaNhanVien(congTy.DanhSachNhanVien);

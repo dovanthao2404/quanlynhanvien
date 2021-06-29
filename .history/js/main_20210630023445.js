@@ -82,7 +82,7 @@ getEle('btnThemNhanVien').addEventListener('click', function () {
 
 
 // Sửa nhân viên
-SuaNhanVien = (dsnv) => {
+function SuaNhanVien(dsnv) {
   let soNV = dsnv.length;
   for (let i = 0; i < soNV; i++) {
     getEle(`sua-${dsnv[i].maNV}`).onclick = function () {
@@ -93,7 +93,7 @@ SuaNhanVien = (dsnv) => {
 
 // Xóa nhân viên
 
-XoaNhanVien = (dsnv) => {
+function XoaNhanVien(dsnv) {
   let soNV = dsnv.length;
   for (let i = 0; i < soNV; i++) {
     getEle(`xoa-${dsnv[i].maNV}`).onclick = function () {
